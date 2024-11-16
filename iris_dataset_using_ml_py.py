@@ -40,7 +40,6 @@ sns.pairplot(df,hue='species')
 
 """Seperating input and output column"""
 
-from re import X
 # Seperate feature and target
 
 data=df.values
